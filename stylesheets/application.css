@@ -28,8 +28,8 @@ a:link, a:hover, a:active { color: #0F65BC; }
 
 #top-menu ul { padding: 0 0px; }
 #top-menu li, #top-menu #loggedas { color: #ddd; line-height: 21px; margin-right: 4px; }
-#top-menu li a { color: #AAA; font-weight: normal; padding:4px 5px; }
-#top-menu li a:hover { color: #fff; text-decoration: none; }
+#top-menu li a { color: #fff; font-weight: normal; padding:4px 5px; }
+#top-menu li a:hover { text-decoration: underline; }
 #main {
   background: #EEE;
   border-top: 1px solid #8B9EB3;
@@ -128,14 +128,15 @@ div.flash, .nodata {
 #main-menu li a:active,
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
-  background-position: 2px 60%;
+  background-position: 3px center;
   background-repeat: no-repeat;
-  padding-left: 22px;
-  padding: 5px 2px 4px 22px;
+  border: 1px solid transparent;
+  border-width: 0 1px;
+  line-height: 25px;
+  padding: 0 5px 0 23px;
   color: #111;
   font-weight: normal;
   text-decoration: none;
-  border: 1px solid transparent;
   background-color: transparent;
 }
 
@@ -148,8 +149,8 @@ div.flash, .nodata {
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
   background-color: #5E82A8;
+  border-color: #4E6F8E;
   color: #FFF;
-  border: 1px solid #4E6F8E;
 }
 
 /* Tables */
