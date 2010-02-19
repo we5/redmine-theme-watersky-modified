@@ -71,7 +71,7 @@ h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {
   color: #000;
   font-size: 14px;
   line-height: 20px;
-  margin: -6px -10px 4px -10px;
+  margin: -6px -10px 8px -10px;
   padding: 4px 4px 6px 7px;
 }
 
@@ -120,7 +120,7 @@ div.flash, .nodata {
 }
 
 #main-menu li:hover {
-  background: #5E82A8 url(../images/menu-back-h.png) repeat-x 0px 0px;
+  background: #5D81A8 url(../images/menu-back-h.png) repeat-x 0px 0px;
 }
 
 /* Menu item common decoration */
@@ -129,16 +129,16 @@ div.flash, .nodata {
 #main-menu li a:active,
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
+  background-color: transparent;
   background-position: 3px center;
   background-repeat: no-repeat;
   border: 1px solid transparent;
   border-width: 0 1px;
-  line-height: 25px;
-  padding: 0 5px 0 23px;
   color: #111;
   font-weight: normal;
+  line-height: 25px;
+  padding: 0 5px 0 23px;
   text-decoration: none;
-  background-color: transparent;
 }
 
 #main-menu li a:hover,
