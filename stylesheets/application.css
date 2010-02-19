@@ -146,10 +146,9 @@ div.flash, .nodata {
   color: #EEE;
 }
 
-
 #main-menu li a.selected,
 #main-menu li a.selected:hover {
-  background-color: #5E82A8;
+  background-color: #5D81A8;
   border-color: #4E6F8E;
   color: #FFF;
 }
