@@ -22,9 +22,8 @@ a:link, a:hover, a:active { color: #0F65BC; }
   height: 31px;
 }
 #top-menu { font-size: 10px; position: relative; padding: 0; height: 21px }
-#top-menu {
+#xtop-menu {
   background: #214B73 url(../images/top-back.png) repeat-x 0px 0px;
-  background-image: none;
 }
 
 #top-menu ul { padding: 0 0px; }
